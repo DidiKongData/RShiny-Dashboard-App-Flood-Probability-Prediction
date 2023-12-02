@@ -1,5 +1,5 @@
 # RShiny-Dashboard-App-Flood-Probability-Prediction
-## Application RShiny Dashboard - Simulation d'un Processus Stochastique de Poisson
+## Application RShiny Dashboard - Simulation d'un Processus de Poisson
 Cette plateforme a pour but d'afficher de manière interactive et dynamique des visualisations graphiques de données relativement au projet de simulation du cours de 'Techniques de Simulation' à l'ISFA.
 <img width="934" alt="image" src="https://github.com/DidiKongData/RShiny-Dashboard-App-Flood-Probability-Prediction/assets/147708254/2b04c63c-f50b-44a1-993a-f45f4927492a">
 # WARNING - DISCLAIMER !
@@ -10,6 +10,7 @@ L'existence de cette plateforme en particulier relève uniquement de mon intér�
 ISFA 2023/2024
 
 ## Projet principal (la création de l'application n'est pas dans le projet)
+Dinesh.B - Quentin.S - Evrard.D
 ## 1 Modèle
 ### 1.1 Contexte
 On considère le fleuve Coulantine traversant la ville d’Aussec. On souhaite savoir
