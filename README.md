@@ -28,7 +28,7 @@ expression, t représente le temps en années, avec t = 0 au début de l’anné
 à la fin de l’année 2024.
 On note T1, T2, . . . les variables aléatoires correspondant aux dates des pluies.
 ### 1.3 Intensité des pluies
-On modélise les intensités de chacune des pluies par des variables aléatoires indépendantes, et indépendantes des dates des pluies, toutes de loi PI de densité fI définie
+On modélise les intensités de chacune des pluies par des variables aléatoires indépendantes, et indépendantes des dates des pluies, toutes de loi Pi de densité fi définie
 par :
 <img width="182" alt="image" src="https://github.com/DidiKongData/RShiny-Dashboard-App-Flood-Probability-Prediction/assets/147708254/fe914e47-8abe-4f4b-afb5-d632c5d7e32c">
 
@@ -43,12 +43,12 @@ en notant v la vitesse de résorption.
 On notera Hmax la hauteur maximale de l’eau dans le fleuve Coulantine au cours de
 l’année 2024 :
 <img width="98" alt="image" src="https://github.com/DidiKongData/RShiny-Dashboard-App-Flood-Probability-Prediction/assets/147708254/c7f6895b-5eeb-4452-b7de-8ca93dd8435c">
-2 Résultat attendu
+## 2 Résultat attendu
 On cherche à approximer, par une méthode de Monte Carlo, la probabilité que Hmax
 dépasse le seuil h0 (donné) correspondant à l’inondation de la ville d’Aussec :
-p
-∗
-(h0) = P [Hmax > h0] .
+<img width="128" alt="image" src="https://github.com/DidiKongData/RShiny-Dashboard-App-Flood-Probability-Prediction/assets/147708254/66e810c0-dd37-40e0-90ae-ab600cf55821">
+--
+#### Résultats :
 <img width="934" alt="image" src="https://github.com/DidiKongData/RShiny-Dashboard-App-Flood-Probability-Prediction/assets/147708254/a35adcde-231e-4fea-a6a3-f8103fd29eed">
 <img width="960" alt="image" src="https://github.com/DidiKongData/RShiny-Dashboard-App-Flood-Probability-Prediction/assets/147708254/2e624e40-b309-4fd5-bdc8-bbcb9b00d58c">
 <img width="960" alt="image" src="https://github.com/DidiKongData/RShiny-Dashboard-App-Flood-Probability-Prediction/assets/147708254/af7331be-eed0-4c28-a5ea-108b89092303">
