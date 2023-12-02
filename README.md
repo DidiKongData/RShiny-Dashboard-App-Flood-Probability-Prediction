@@ -9,8 +9,9 @@ L'existence de cette plateforme en particulier relève uniquement de mon intér�
 ### Dinesh BALASOUPRAMANIANE
 ISFA 2023/2024
 
-# Projet principal (la création de l'application n'est pas dans le projet)
-## 1.1 Contexte
+## Projet principal (la création de l'application n'est pas dans le projet)
+### 1 Modèle
+#### 1.1 Contexte
 On considère le fleuve Coulantine traversant la ville d’Aussec. On souhaite savoir
 quelle est la probabilité que ce fleuve déborde et inonde la ville au cours de l’année 2024,
 selon qu’on construise ou non des murets autour de son lit.
@@ -19,32 +20,29 @@ ces pluies instantanées), et des intensités pour chacune de ces dates. À part
 données, aléatoires, un modèle nous permet de calculer la hauteur d’eau dans le fleuve à
 tout moment de l’année, et donc tester si la hauteur maximale dépasse un certain seuil
 correspondant au début d’une inondation.
-## 1.2 Dates des pluies
+#### 1.2 Dates des pluies
 On modélise les dates des pluies par un processus de Poisson inhomogène, de fonction intensité λ définie par
-### λ(t) = λ0(1 + α sin(4πt)),
+##### λ(t) = λ0(1 + α sin(4πt)),
 où λ0 et α sont des constantes du modèle, vérifiant λ0 > 0 et 0 ≤ α < 1. Dans cette
 expression, t représente le temps en années, avec t = 0 au début de l’année 2024 et t = 1
 à la fin de l’année 2024.
 On note T1, T2, . . . les variables aléatoires correspondant aux dates des pluies.
-## 1.3 Intensité des pluies
+#### 1.3 Intensité des pluies
 On modélise les intensités de chacune des pluies par des variables aléatoires indépendantes, et indépendantes des dates des pluies, toutes de loi PI de densité fI définie
-par
-### fI (x) = 1R+(x)cIm + |x − x0|η,
+par :
+<img width="182" alt="image" src="https://github.com/DidiKongData/RShiny-Dashboard-App-Flood-Probability-Prediction/assets/147708254/fe914e47-8abe-4f4b-afb5-d632c5d7e32c">
+
 où cI est une constante de normalisation, et m > 0, x0 > 0 et η > 2 sont des paramètres du modèle.
 On note I1, I2, . . . les variables aléatoires correspondant aux intensités des pluies.
-## 1.4 Hauteur d’eau
+#### 1.4 Hauteur d’eau
 La hauteur d’eau H(t) dans le fleuve Coulantine au temps t est définie comme suit :
-H(t) = ∑i≥1Ii × r(t − Ti),
-1
+<img width="131" alt="image" src="https://github.com/DidiKongData/RShiny-Dashboard-App-Flood-Probability-Prediction/assets/147708254/5fde96f6-4f6b-4ba4-a904-558a3a3ccb57">
 où r est la fonction de résorption de l’eau de ce fleuve :
-r(t) = 1R+
-(t) exp(−vt)
+<img width="128" alt="image" src="https://github.com/DidiKongData/RShiny-Dashboard-App-Flood-Probability-Prediction/assets/147708254/6c1d11a2-1f87-45f5-acfb-cb3f391da9cd">
 en notant v la vitesse de résorption.
 On notera Hmax la hauteur maximale de l’eau dans le fleuve Coulantine au cours de
 l’année 2024 :
-Hmax = max
-0≤t≤1
-H(t).
+<img width="98" alt="image" src="https://github.com/DidiKongData/RShiny-Dashboard-App-Flood-Probability-Prediction/assets/147708254/c7f6895b-5eeb-4452-b7de-8ca93dd8435c">
 2 Résultat attendu
 On cherche à approximer, par une méthode de Monte Carlo, la probabilité que Hmax
 dépasse le seuil h0 (donné) correspondant à l’inondation de la ville d’Aussec :
