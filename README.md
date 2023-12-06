@@ -1,5 +1,6 @@
 # RShiny-Dashboard-App-Flood-Probability-Prediction
 ## Application RShiny Dashboard - Simulation d'un Processus de Poisson
+## (Doit être mis à jour avec les données du code de simulation principal)
 #### Cette plateforme a pour but d'afficher de manière interactive et dynamique des visualisations graphiques de données relativement au projet de simulation du cours de 'Techniques de Simulation' à l'ISFA.
 <img width="934" alt="image" src="https://github.com/DidiKongData/RShiny-Dashboard-App-Flood-Probability-Prediction/assets/147708254/2b04c63c-f50b-44a1-993a-f45f4927492a">
 # WARNING - DISCLAIMER !
