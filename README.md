@@ -51,7 +51,7 @@ l’année 2024 :
 <img width="128" alt="image" src="https://github.com/DidiKongData/RShiny-Dashboard-App-Flood-Probability-Prediction/assets/147708254/66e810c0-dd37-40e0-90ae-ab600cf55821">
 
 #### - Étudier l’influence des paramètres λ0, α, x0, v et h0 sur la probabilité p∗(h0). Le sens de cette influence était-il attendu ?
-
+Main Source code : https://github.com/DidiKongData/RShiny-Dashboard-App-Flood-Probability-Prediction/blob/main/Projet_simul_2.1.5%20(2).R
 #### Résultats :
 <img width="934" alt="image" src="https://github.com/DidiKongData/RShiny-Dashboard-App-Flood-Probability-Prediction/assets/147708254/a35adcde-231e-4fea-a6a3-f8103fd29eed">
 <img width="960" alt="image" src="https://github.com/DidiKongData/RShiny-Dashboard-App-Flood-Probability-Prediction/assets/147708254/2e624e40-b309-4fd5-bdc8-bbcb9b00d58c">
