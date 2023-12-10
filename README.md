@@ -4,7 +4,7 @@
 #### Cette plateforme a pour but d'afficher de manière interactive et dynamique des visualisations graphiques de données relativement au projet de simulation du cours de 'Techniques de Simulation' à l'ISFA.
 <img width="934" alt="image" src="https://github.com/DidiKongData/RShiny-Dashboard-App-Flood-Probability-Prediction/assets/147708254/2b04c63c-f50b-44a1-993a-f45f4927492a">
 # WARNING - DISCLAIMER !
-L'existence de cette plateforme en particulier relève uniquement de mon intérêt personnel de vouloir apprendre en profondeur les librairies 'Shiny' et 'ShinyDashboard' de R, ainsi que de créer une application permettant à une tierce personne de pouvoir naviguer simplement à travers les différents résultats de simulations. La réalisation de cette application n'a absolument pas été demandé ni requis dans le cadre du projet académique, dont l'unique but était de pouvoir réussir les simulations mais pas de créer une application.
+L'existence de cette plateforme en particulier relève uniquement de mon intérêt personnel de vouloir apprendre en profondeur les librairies 'Shiny' et 'ShinyDashboard' de R, ainsi que de créer une application permettant à une tierce personne de pouvoir naviguer simplement à travers les différents résultats de simulations. La réalisation de cette application n'a absolument pas été demandé ni requis dans le cadre du projet académique, dont l'unique but était de pouvoir réussir les simulations, mais pas de créer une application.
 
 ### TOUS DROITS RÉSERVÉS
 ### Dinesh BALASOUPRAMANIANE
