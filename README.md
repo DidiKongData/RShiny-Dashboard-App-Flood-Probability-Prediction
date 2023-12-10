@@ -10,7 +10,7 @@ L'existence de cette plateforme en particulier relève uniquement de mon intér�
 ### Dinesh BALASOUPRAMANIANE
 ISFA 2023/2024
 
-## Projet principal (la création de l'application n'est pas dans le projet)
+## Projet principal (la création de l'application n'est initialement pas dans le projet)
 Dinesh.B - Quentin.S - Evrard.D
 ## 1 Modèle
 ### 1.1 Contexte
